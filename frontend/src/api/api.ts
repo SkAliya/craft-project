@@ -1,6 +1,7 @@
 // const API_BASE = import.meta.env.VITE_API_BASE || "";
 
-const API_BASE = "http://localhost:3000/api";
+// const API_BASE = "http://localhost:3000/api";
+const API_BASE = "https://craft-project-l17i.onrender.com/api"
 export async function getRooms() {
   const res = await fetch(`${API_BASE}/rooms`);
   return res.json();

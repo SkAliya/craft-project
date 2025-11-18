@@ -1,0 +1,81 @@
+/* Wrapper */
+.rooms-wrapper {
+  padding: 30px;
+  max-width: 1100px;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+  color: #1d1d1d;
+}
+
+.page-title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #b36b00; /* warm gold */
+}
+
+/* Grid Layout */
+.rooms-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+/* Glass Room Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Room Title */
+.room-name {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #a45a00; /* deep gold */
+}
+
+/* Details */
+.room-details p {
+  font-size: 15px;
+  margin: 6px 0;
+  color: #5a4630; /* warm brown text */
+}
+
+.label {
+  font-weight: 600;
+  color: #b36b00; /* gold label */
+}
+
+/* Button */
+.room-btn {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.btn-primary {
+  background: #ff7043; /* sunset orange */
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.btn-primary:hover {
+  background: #e65a2e; /* deeper orange */
+  transform: translateY(-2px);
+}

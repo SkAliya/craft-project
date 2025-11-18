@@ -1,0 +1,98 @@
+/* Wrapper */
+.booking-wrapper {
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 22px;
+  color: #b36b00; /* warm gold */
+}
+
+/* Glass card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+  margin-bottom: 35px;
+}
+
+/* Form */
+.booking-form {
+  display: grid;
+  gap: 18px;
+}
+
+.form-group label {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  color: #a45a00; /* warm gold accent */
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #e6c9a8;
+  background: #fff7ef; /* warm cream */
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #ff8b55;
+  background: #ffffff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 140, 85, 0.35); /* orange glow */
+}
+
+/* Button */
+.btn-primary {
+  background: #ff7043; /* sunset orange */
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.btn-primary:hover {
+  background: #e65a2e; /* deeper orange */
+}
+
+/* Result Section */
+.result-card {
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 22px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: #b36b00; /* gold */
+}
+
+.result-box {
+  background: #2b1f1a; /* dark warm brown */
+  color: #ffb47a; /* soft peach highlight */
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
